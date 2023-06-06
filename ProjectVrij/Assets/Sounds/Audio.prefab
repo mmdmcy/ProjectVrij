@@ -74,7 +74,7 @@ AudioSource:
   m_GameObject: {fileID: 6739441821634510382}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 24300002, guid: 3970d72e2e0065c4cad221af10103659, type: 2}
+  OutputAudioMixerGroup: {fileID: 7566756459868241723, guid: 3970d72e2e0065c4cad221af10103659, type: 2}
   m_audioClip: {fileID: 8300000, guid: f65e0df442128aa4fb55df7e636a90a5, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
@@ -201,10 +201,10 @@ AudioSource:
   m_GameObject: {fileID: 7809983787585088785}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 24300002, guid: 3970d72e2e0065c4cad221af10103659, type: 2}
-  m_audioClip: {fileID: 8300000, guid: ee7fe44e80738fe41aebeacd011fc7de, type: 3}
+  OutputAudioMixerGroup: {fileID: 3261047287616729235, guid: 3970d72e2e0065c4cad221af10103659, type: 2}
+  m_audioClip: {fileID: 8300000, guid: 4cb4fd5d08fee294abbe2613fbb275c5, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.3
+  m_Volume: 0.2
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -328,7 +328,7 @@ AudioSource:
   m_GameObject: {fileID: 7809983788481077539}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 24300002, guid: 3970d72e2e0065c4cad221af10103659, type: 2}
+  OutputAudioMixerGroup: {fileID: 3261047287616729235, guid: 3970d72e2e0065c4cad221af10103659, type: 2}
   m_audioClip: {fileID: 8300000, guid: acf12419bc9eb3f469b8b2a11a808c4e, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.2
@@ -470,6 +470,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: FootstepSounds
       objectReference: {fileID: 0}
+    - target: {fileID: 4334858793605998212, guid: eab92c9da66c72b458ceed30ba52c486, type: 3}
+      propertyPath: OutputAudioMixerGroup
+      value: 
+      objectReference: {fileID: 7566756459868241723, guid: 3970d72e2e0065c4cad221af10103659, type: 2}
+    - target: {fileID: 4334858794593748169, guid: eab92c9da66c72b458ceed30ba52c486, type: 3}
+      propertyPath: OutputAudioMixerGroup
+      value: 
+      objectReference: {fileID: 7566756459868241723, guid: 3970d72e2e0065c4cad221af10103659, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eab92c9da66c72b458ceed30ba52c486, type: 3}
 --- !u!4 &5785474034578574575 stripped

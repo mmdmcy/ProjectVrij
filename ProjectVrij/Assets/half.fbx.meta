@@ -13,12 +13,17 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: lambert28
-    second: {fileID: 2100000, guid: 06cdedfcb81ef4b5bb47cbdd871f7a12, type: 2}
+    second: {fileID: 2100000, guid: 5f8ad9f129536426fb099021c6cb53ba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pijl_texture
+    second: {fileID: 2100000, guid: 63a047b0104ea4a66897834bae6bc2ab, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: pijl_texture_2
-    second: {fileID: -3301843876874435867, guid: 95264a61b39a54239a40d224f010c996, type: 3}
+    second: {fileID: 2100000, guid: 63a047b0104ea4a66897834bae6bc2ab, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule

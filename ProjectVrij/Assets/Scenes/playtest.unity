@@ -195,6 +195,11 @@ AudioSource:
   m_CorrespondingSourceObject: {fileID: 111809731419488882, guid: 4d581b72803c5bc4fae2f4257e509f76, type: 3}
   m_PrefabInstance: {fileID: 174790866}
   m_PrefabAsset: {fileID: 0}
+--- !u!82 &174790870 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 8440920929922125323, guid: 4d581b72803c5bc4fae2f4257e509f76, type: 3}
+  m_PrefabInstance: {fileID: 174790866}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &286650105
 GameObject:
   m_ObjectHideFlags: 0
@@ -291,11 +296,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 286650105}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
---- !u!4 &289887122 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 8005075267635967701, guid: 4d581b72803c5bc4fae2f4257e509f76, type: 3}
-  m_PrefabInstance: {fileID: 174790866}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &341567150
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -394,7 +394,7 @@ PrefabInstance:
     - target: {fileID: 4079043846043547470, guid: d6840c706f7ac744ca42d354663310dd, type: 3}
       propertyPath: SFX
       value: 
-      objectReference: {fileID: 1696799092}
+      objectReference: {fileID: 174790870}
     - target: {fileID: 4079043847097674082, guid: d6840c706f7ac744ca42d354663310dd, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -1168,68 +1168,6 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
---- !u!1001 &1696799091
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 289887122}
-    m_Modifications:
-    - target: {fileID: 8440920930708019376, guid: d7b0d68695d9ecc4d937d5477c85a01a, type: 3}
-      propertyPath: m_RootOrder
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 8440920930708019376, guid: d7b0d68695d9ecc4d937d5477c85a01a, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8440920930708019376, guid: d7b0d68695d9ecc4d937d5477c85a01a, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8440920930708019376, guid: d7b0d68695d9ecc4d937d5477c85a01a, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8440920930708019376, guid: d7b0d68695d9ecc4d937d5477c85a01a, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8440920930708019376, guid: d7b0d68695d9ecc4d937d5477c85a01a, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8440920930708019376, guid: d7b0d68695d9ecc4d937d5477c85a01a, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8440920930708019376, guid: d7b0d68695d9ecc4d937d5477c85a01a, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8440920930708019376, guid: d7b0d68695d9ecc4d937d5477c85a01a, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8440920930708019376, guid: d7b0d68695d9ecc4d937d5477c85a01a, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8440920930708019376, guid: d7b0d68695d9ecc4d937d5477c85a01a, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8440920930708019377, guid: d7b0d68695d9ecc4d937d5477c85a01a, type: 3}
-      propertyPath: m_Name
-      value: Button Sound
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: d7b0d68695d9ecc4d937d5477c85a01a, type: 3}
---- !u!82 &1696799092 stripped
-AudioSource:
-  m_CorrespondingSourceObject: {fileID: 8440920930708019383, guid: d7b0d68695d9ecc4d937d5477c85a01a, type: 3}
-  m_PrefabInstance: {fileID: 1696799091}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1809721662
 GameObject:
   m_ObjectHideFlags: 0

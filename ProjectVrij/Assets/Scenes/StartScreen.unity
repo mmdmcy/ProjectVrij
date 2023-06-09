@@ -1059,7 +1059,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cc47faf7ff2046c4594dee792c7fd146, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SolitudeGame: playtest
+  SolitudeGame: Flashlight 2
   SFX: {fileID: 27942743}
   Button: {fileID: 8300000, guid: 6e33ddb37488d2d4192b1d657d3ee8e6, type: 3}
   delayTime: 0.05

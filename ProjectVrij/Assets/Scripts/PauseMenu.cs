@@ -15,6 +15,12 @@ public class PauseMenu : MonoBehaviour
     public AudioSource SFX;
     public AudioClip Button;
 
+    private void Start()
+    {
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
+    }
+
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape))

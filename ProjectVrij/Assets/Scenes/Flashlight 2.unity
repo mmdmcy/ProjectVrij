@@ -207,6 +207,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Audio
       objectReference: {fileID: 0}
+    - target: {fileID: 5785474033733213434, guid: 4d581b72803c5bc4fae2f4257e509f76, type: 3}
+      propertyPath: Loop
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5785474034414796471, guid: 4d581b72803c5bc4fae2f4257e509f76, type: 3}
+      propertyPath: Loop
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8005075267635967701, guid: 4d581b72803c5bc4fae2f4257e509f76, type: 3}
       propertyPath: m_RootOrder
       value: 6

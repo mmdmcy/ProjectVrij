@@ -7,13 +7,48 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: BEER_TEXTURE
+    second: {fileID: 2100000, guid: 1111af31cd37e452c9ebf90dca49a117, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bloem_floor_texture
+    second: {fileID: 2100000, guid: cf070567d019d428e8fea98898f74190, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bloem_muur_texture
+    second: {fileID: 2100000, guid: 5b25381ab52954e8eb3906609b7013ef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: color_grid
+    second: {fileID: 2100000, guid: c687a18b63fba4714bfc26b2e90bd4fe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: craxy_texture1
+    second: {fileID: 2100000, guid: 09ebd8e54e7164674864f0fd615bcd74, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: dak_gras_texture
     second: {fileID: 2100000, guid: cb1b5bd860f8f47388a18d9e0ca269ce, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: grass_texture
+    second: {fileID: 2100000, guid: 69c79bc994aa44cc3baf8a2c6dc86017, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: lambert28
     second: {fileID: 2100000, guid: 5f8ad9f129536426fb099021c6cb53ba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: oog_texture
+    second: {fileID: 2100000, guid: df83a8b426e7842539710bca12ec71b4, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -29,6 +64,26 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: vloer_gras_texture
     second: {fileID: 2100000, guid: 350219408757843c8a91383d7eff2140, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: weird_texture
+    second: {fileID: 2100000, guid: 75451c3c9947046abbe6aaebc36fc9da, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: window2
+    second: {fileID: 2100000, guid: 03569f4cbb95c4363a69dd4a5e6dbb63, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wolken_texture
+    second: {fileID: 2100000, guid: 4b56d65f790774ae4ab0a68a45b0ea63, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ziekenhuis
+    second: {fileID: 2100000, guid: bc5555834651a46a7a52d63f8842ec66, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

@@ -12,6 +12,12 @@ public class EndScreen : MonoBehaviour
 
     public float delayTime = 0.05f;
 
+    private void Start()
+    {
+        Cursor.lockState = CursorLockMode.Confined;
+        Cursor.visible = true;
+    }
+
     public void MainMenu()
     {
         SFX.clip = Button;

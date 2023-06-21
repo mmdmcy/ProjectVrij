@@ -46,7 +46,7 @@ public class Flashlight : MonoBehaviour
     void Update()
     {
         text.text = "[F] Flashlight " + lifetime.ToString("0") + "%";
-        batteryText.text = "[R] to rechage " + batteries.ToString();
+        batteryText.text = "[R] to recharge " + batteries.ToString();
 
         if(Input.GetButtonDown("flashlight") && off)
         {

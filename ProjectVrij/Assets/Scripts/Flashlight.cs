@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class Flashlight : MonoBehaviour
 {
@@ -61,6 +62,7 @@ public class Flashlight : MonoBehaviour
             on = false;
             off = true;
             lifetime = 0;
+            SceneManager.LoadScene(3);
         }
 
         if (lifetime >= 100)

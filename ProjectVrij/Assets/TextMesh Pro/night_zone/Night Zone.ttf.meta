@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: d1c9c9f8fa91d014f8fd0ed78412eef8
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Night Zone
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 30d14c5ac47c7e84bb6d14146aa4b937, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

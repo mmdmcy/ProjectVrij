@@ -25,12 +25,6 @@ public class StartScreen : MonoBehaviour
         SceneManager.LoadScene(SolitudeGame);
     }
 
-    public void OpenSettings()
-    {
-        SFX.clip = Button;
-        SFX.Play();
-    }
-
     public void QuitGame()
     {
         SFX.clip = Button;

@@ -18,6 +18,13 @@ public class Flashlight : MonoBehaviour
     public AudioSource flashON;
     public AudioSource flashOFF;
 
+    public GameObject boven;
+    public GameObject onder;
+
+    public Camera playerCam;
+    public Camera cutsceneCam;
+    public GameObject cutsceneCamera;
+
     private bool on;
     private bool off;
 
@@ -28,6 +35,12 @@ public class Flashlight : MonoBehaviour
 
         off = true;
         light.enabled = false;
+
+        boven.SetActive(false);
+        onder.SetActive(false);
+
+        cutsceneCamera.SetActive(false);
+        cutsceneCam.enabled = false;
     }
 
     void Update()
@@ -62,7 +75,15 @@ public class Flashlight : MonoBehaviour
             on = false;
             off = true;
             lifetime = 0;
-            SceneManager.LoadScene(3);
+
+            boven.SetActive(true);
+            onder.SetActive(true);
+
+            cutsceneCamera.SetActive(true);
+            cutsceneCam.enabled = true;
+            playerCam.enabled = false;
+            
+            StartCoroutine(blink());
         }
 
         if (lifetime >= 100)
@@ -85,5 +106,12 @@ public class Flashlight : MonoBehaviour
         {
             batteries = 0;
         }
+    }
+
+    IEnumerator blink()
+    {
+        yield return new WaitForSeconds(6);
+
+        SceneManager.LoadScene(3);
     }
 }

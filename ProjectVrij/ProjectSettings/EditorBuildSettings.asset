@@ -12,8 +12,8 @@ EditorBuildSettings:
     path: Assets/Scenes/Tutorial.unity
     guid: b2b7d7d356e24bd4b964ea3ebec68836
   - enabled: 1
-    path: Assets/Scenes/Flashlight 2.unity
-    guid: be9c464f1795848858b54dc7a832c217
+    path: Assets/Scenes/laatste versie.unity
+    guid: ec552423b7c1b46b2b975974b8e9cf04
   - enabled: 1
     path: Assets/Scenes/EndScreen.unity
     guid: 1b629e7a869e2094688f75ab150e2a3b

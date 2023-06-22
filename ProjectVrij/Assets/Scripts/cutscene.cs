@@ -13,9 +13,9 @@ public class cutscene : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+
         playerCam.enabled = false;
         cutsceneCam.enabled = true;
-
 
         StartCoroutine(cameraChange());
     }
@@ -25,6 +25,7 @@ public class cutscene : MonoBehaviour
     {
         
     }
+
 
     IEnumerator cameraChange()
     {

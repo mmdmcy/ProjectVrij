@@ -362,7 +362,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -471, y: -292.00006}
+  m_AnchoredPosition: {x: -471, y: -350.00006}
   m_SizeDelta: {x: 875.956, y: 172.007}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &490451849
@@ -1307,7 +1307,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 495, y: -292}
+  m_AnchoredPosition: {x: 495, y: -350}
   m_SizeDelta: {x: 875.956, y: 172.007}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1649669017
@@ -1544,7 +1544,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Your light will slowly go out. Collect graffiti to recharge it.
+  m_text: Your light will slowly go out. Collect graffiti to recharge it. if the
+    flashlight reaches 0% the experience will be over.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 838b0685bed9b0f4a83812745c858295, type: 2}
   m_sharedMaterial: {fileID: 5893085260761227759, guid: 838b0685bed9b0f4a83812745c858295, type: 2}
@@ -1607,7 +1608,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: -5.34626}
+  m_margin: {x: 0, y: 0, z: 60.553406, w: -5.34626}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0

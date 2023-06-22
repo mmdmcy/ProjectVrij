@@ -1135,6 +1135,7 @@ MonoBehaviour:
   StartScreen: StartScreen
   SFX: {fileID: 1164469526817364047}
   Button: {fileID: 8300000, guid: 6e33ddb37488d2d4192b1d657d3ee8e6, type: 3}
+  fadeScreen: {fileID: 918015836}
   delayTime: 0.05
 --- !u!1 &1636535760
 GameObject:

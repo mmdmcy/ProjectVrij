@@ -11,6 +11,9 @@ public class Flashlight : MonoBehaviour
 
     public TMP_Text batteryText;
 
+    public TMP_Text rechargeText;
+    public GameObject rechargeText2;
+
     public float lifetime = 100;
 
     public float batteries = 0;
@@ -36,6 +39,7 @@ public class Flashlight : MonoBehaviour
         off = true;
         light.enabled = false;
 
+
         boven.SetActive(false);
         onder.SetActive(false);
 
@@ -47,6 +51,7 @@ public class Flashlight : MonoBehaviour
     {
         text.text = "[F] Flashlight " + lifetime.ToString("0") + "%";
         batteryText.text = "[R] to recharge " + batteries.ToString();
+        rechargeText.text = "The light will almost go out, press [R] to recharge!";
 
         if(Input.GetButtonDown("flashlight") && off)
         {
@@ -84,6 +89,13 @@ public class Flashlight : MonoBehaviour
             playerCam.enabled = false;
             
             StartCoroutine(blink());
+        }
+
+        if(lifetime <= 10)
+        {
+            rechargeText2.SetActive(true);
+        } else {
+            rechargeText2.SetActive(false);
         }
 
         if (lifetime >= 100)

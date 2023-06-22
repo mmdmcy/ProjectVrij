@@ -10,12 +10,16 @@ public class EndScreen : MonoBehaviour
     public AudioSource SFX;
     public AudioClip Button;
 
+    public GameObject fadeScreen;
+
     public float delayTime = 0.05f;
 
     private void Start()
     {
         Cursor.lockState = CursorLockMode.Confined;
         Cursor.visible = true;
+
+        StartCoroutine(goAway());
     }
 
     public void MainMenu()
@@ -43,5 +47,12 @@ public class EndScreen : MonoBehaviour
     {
         Application.Quit();
         print("Quit");
+    }
+
+    IEnumerator goAway()
+    { 
+       yield return new WaitForSeconds(2); 
+
+       fadeScreen.SetActive(false);
     }
 }
